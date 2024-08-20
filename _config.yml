@@ -16,7 +16,9 @@ website: liuliu-umich.github.io
 # website_title: Web (Website title override)
 
 # Base URL (set this if your site is not at the root of the domain)
-url: "liuliu-umich.github.io" # Leave it empty if your site is at the root of the domain. Set to "/your-subdirectory" if it is in a subdirectory.
+baseurl: "" # Leave it empty if your site is at the root of the domain
+url: "http://localhost:4000" # The base URL for your local development, or your production URL
+# url: "http://liuliu-umich.github.io" # Leave it empty if your site is at the root of the domain. Set to "/your-subdirectory" if it is in a subdirectory.
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -37,10 +39,10 @@ orcid_username: 0000-0001-8905-1039
 googlescholar_username: w77PTjUAAAAJ&hl=en
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -193,9 +195,10 @@ navigation:
   - title: "Home"
     url: "/"
   - title: "Blog"
-    url: "/blog"
+    url: "/blog/"
   # Add more navigation links if needed
 
+permalink: /blog/:title/
 
 # Footer
 footer_show_references: true

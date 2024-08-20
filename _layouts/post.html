@@ -1,22 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ page.title | escape }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-</head>
-<body>
-  <header>
-    {% include header.html %}
-  </header>
-  <main>
-    <article>
-      <h1>{{ page.title }}</h1>
-      {{ content }}
-    </article>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+{%- include head.html -%}
+
+<body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
+
+  {%- include header.html -%}
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      {%- if jekyll.environment == 'production' and site.gtm -%}
+        {%- include gtm_body.html -%}
+      {%- endif -%}
+
+      <div class="container post-container">
+        <header class="post-header">
+          <h1>{{ page.title }}</h1>
+          <p class="post-meta">
+            Published on {{ page.date | date: "%B %d, %Y" }}
+            {% if page.author %} by {{ page.author }}{% endif %}
+          </p>
+        </header>
+        
+        <!-- Line between header and post -->
+        <hr class="header-divider">
+
+        <div class="post-content">
+          {{ content }}
+        </div>
+
+        <footer class="post-footer">
+          <p>Category: {{ page.category }}</p>
+          <p>Tags: {% for tag in page.tags %}{{ tag }}{% if forloop.last == false %}, {% endif %}{% endfor %}</p>
+        </footer>
+        
+        <hr>
+
+        <div class="post-navigation">
+          <style>
+            .post-navigation {
+              display: flex;
+              justify-content: space-between;
+              margin-top: 20px;
+              padding: 0 20px;
+            }
+
+            .post-navigation a {
+              font-size: 2.0em; /* Adjust the font size as needed */
+              color: #007bff; /* Optional: change the color */
+              text-decoration: none; /* Optional: remove underline */
+            }
+
+            .post-navigation a:hover {
+              text-decoration: underline; /* Optional: underline on hover */
+            }
+
+            .header-divider {
+              border: none;
+              border-top: 1px solid #ddd; /* Color and thickness of the line */
+              margin: 20px 0; /* Space around the line */
+            }
+          </style>
+
+          {% if page.previous.url %}
+            <a href="{{ page.previous.url }}" class="prev-post">Previous: {{ page.previous.title }}</a>
+          {% endif %}
+          {% if page.next.url %}
+            <a href="{{ page.next.url }}" class="next-post">Next: {{ page.next.title }}</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
   </main>
-  <footer>
-    <p>&copy; {{ site.year }} {{ site.name }}</p>
-  </footer>
+
+  {%- include footer.html -%}
+  {% if site.darkmode == false %}
+    <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
+  {% endif %}
 </body>
+
 </html>

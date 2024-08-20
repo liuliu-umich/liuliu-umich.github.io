@@ -17,8 +17,8 @@ website: liuliu-umich.github.io
 
 # Base URL (set this if your site is not at the root of the domain)
 baseurl: "" # Leave it empty if your site is at the root of the domain
-url: "http://localhost:4000" # The base URL for your local development, or your production URL
-# url: "http://liuliu-umich.github.io" # Leave it empty if your site is at the root of the domain. Set to "/your-subdirectory" if it is in a subdirectory.
+# url: "http://localhost:4000" # The base URL for your local development, or your production URL
+url: "http://liuliu-umich.github.io" # Leave it empty if your site is at the root of the domain. Set to "/your-subdirectory" if it is in a subdirectory.
 
 # Dark Mode (true/false/never)
 darkmode: false

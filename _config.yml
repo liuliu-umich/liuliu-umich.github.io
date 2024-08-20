@@ -84,9 +84,9 @@ content:
           - title: GitHub
             icon: fab fa-github
             url: https://github.com/username/project-repo
-        quote: >
+        description: |
           Developed an AI-powered end-to-end MVP that automates paper selection, content extraction, and generation, reducing research time by 100 hours per project.
-        description: | 
+ 
           Collaborated with a cross-functional team to implement RAG with Chroma vector databases and GPT-4. Developed a Flask-based backend and API, coordinated with front-end and product manager teams, and deployed the application on Azure.
 
       - layout: left
@@ -98,9 +98,9 @@ content:
           - title: GitHub
             icon: fab fa-github
             url: https://github.com/username/heart-attack-detector
-        quote: >
-          Developed a Heart Attack Detector using health data, integrated with hospital systems, achieving a recall score of 0.81 and reducing medical costs by $80 billion annually.
         description: |
+          Developed a Heart Attack Detector using health data, integrated with hospital systems, achieving a recall score of 0.81 and reducing medical costs by $80 billion annually.
+
           To identify high-risk individuals for heart attacks, I integrated data from a local hospital database and web scraping. Derived features using historical survival analysis models and trained multiple classification models, including KNN, XGBoost, and Artificial Neural Networks. Deployed the model as part of the hospital’s digital infrastructure, benefiting 78,000 patients.
 
       - layout: left
@@ -112,9 +112,8 @@ content:
           - title: GitHub
             icon: fab fa-github
             url: https://github.com/username/insight-engine-heart-regen
-        quote: >
-          Developed a bioinformatics pipeline that identified 47 genes for heart regeneration, securing $1M in NIH funding and resulting in 5 published articles.
         description: |
+          Developed a bioinformatics pipeline that identified 47 genes for heart regeneration, securing $1M in NIH funding and resulting in 5 published articles.
           To identify gene targets promoting heart regeneration, I developed a bioinformatics data analysis pipeline. Collected and processed RNA-seq data, performed Quality Control, Read Mapping, and Quantification. Applied bioinformatics analysis to extract insights, leading to the discovery of 47 heart repair genes.
 
 
@@ -126,39 +125,36 @@ content:
         sub_title: Assistant Professor
         caption: September 2023 - Present
         link: https://medicine.umich.edu/dept/cardiac-surgery/liu-liu-phd-ms
-        quote: >
+        description: |
           Leading data science projects and academic research at the intersection of Healthcare and AI.
-        description: | 
+
           Spearheaded the development of the Heart Drug Target Detector and AI Paper-Analysis Engine. Led a team for heart drug studies as Principal Investigator, and securing $210K in competitive funding within one year.
 
       - layout: left
-        title: University of Michigan
+        title: 
         sub_title: Research Investigator
         caption: December 2018 - August 2023
-        link: https://www.umich.edu/
-        quote: >
+        description: |
           Developed the Heart Drug Insight Engine and Heart Attack Detector.
-        description: | 
+
           Led the Heart Drug Insight Engine project using NGS data, and deployed the Heart Attack Detector model as Principal Investigator.
 
       - layout: left
-        title: University of Michigan
+        title: 
         sub_title: Postdoctoral Researcher
         caption: April 2013 - November 2018
-        link: https://www.nju.edu.cn/
-        quote: >
+        description: |
           Developed the Insight Engine for Heart Regeneration Genes, identifying key gene targets for heart repair.
-        description: | 
+
           Developed a bioinformatics data analysis pipeline to identify gene targets promoting heart regeneration. Collected RNA-seq data, performed quality control, read mapping, and quantification for data preprocessing, and applied bioinformatics analysis. Identified 47 genes as heart repair targets, securing $1M in NIH funding and resulting in 5 published articles.
 
       - layout: left
         title: Nanjing University
         sub_title: Graduate Research and Teaching Assistant
         caption: March 2008 - March 2013
-        link: https://www.nju.edu.cn/
-        quote: >
+        description: |
           Applied differential gene expression analysis to identify biomarkers, securing $50K in funding.
-        description: | 
+
           Developed the Pregnancy Disease Insight Engine and identified 7 genes as diagnostic biomarkers.
 
   - title: Education

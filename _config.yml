@@ -70,9 +70,9 @@ content:
           - title: GitHub
             icon: fab fa-github
             url: https://github.com/username/project-repo
-        quote: >
+        description: |
           Implemented a Heart Drug Target Detector to identify drug targets from 1.4 billion candidates, achieving a precision score of 0.91.
-        description: | 
+
           Led a team of 3 data scientists to extract data from 8 million articles, using NLP and LLM techniques for feature generation. Applied feature selection with Boruta and mRMR, trained models (Logistic Regression, Random Forest, XGBoost, SVM, CNN), and deployed the model as a Flask app on AWS.
 
       - layout: left
@@ -123,23 +123,33 @@ content:
     content:
       - layout: left
         title: University of Michigan
-        sub_title: Data Scientist / Assistant Professor
+        sub_title: Assistant Professor
         caption: September 2023 - Present
-        link: https://www.umich.edu/
+        link: https://medicine.umich.edu/dept/cardiac-surgery/liu-liu-phd-ms
         quote: >
           Leading data science projects and academic research at the intersection of Healthcare and AI.
         description: | 
-          Spearheaded the development of the Heart Drug Target Detector and AI Paper-Analysis Engine. Led a team of 7 for heart drug studies as Principal Investigator, managing a $2M budget, and securing $210K in competitive funding within one year.
+          Spearheaded the development of the Heart Drug Target Detector and AI Paper-Analysis Engine. Led a team for heart drug studies as Principal Investigator, and securing $210K in competitive funding within one year.
 
       - layout: left
         title: University of Michigan
-        sub_title: Data Scientist / Research Investigator
+        sub_title: Research Investigator
         caption: December 2018 - August 2023
         link: https://www.umich.edu/
         quote: >
-          Developed the Heart Drug Insight Engine, securing $3.6M in funding and 3 NIH awards.
+          Developed the Heart Drug Insight Engine and Heart Attack Detector.
         description: | 
-          Led the Heart Drug Insight Engine project using NGS data, and deployed the Heart Attack Detector model as part of the hospital’s digital infrastructure.
+          Led the Heart Drug Insight Engine project using NGS data, and deployed the Heart Attack Detector model as Principal Investigator.
+
+      - layout: left
+        title: University of Michigan
+        sub_title: Postdoctoral Researcher
+        caption: April 2013 - November 2018
+        link: https://www.nju.edu.cn/
+        quote: >
+          Developed the Insight Engine for Heart Regeneration Genes, identifying key gene targets for heart repair.
+        description: | 
+          Developed a bioinformatics data analysis pipeline to identify gene targets promoting heart regeneration. Collected RNA-seq data, performed quality control, read mapping, and quantification for data preprocessing, and applied bioinformatics analysis. Identified 47 genes as heart repair targets, securing $1M in NIH funding and resulting in 5 published articles.
 
       - layout: left
         title: Nanjing University
@@ -158,8 +168,6 @@ content:
         title: Nanjing University
         sub_title: Ph.D. in Biology
         caption: September 2008 - March 2013
-        quote: >
-          Specialized in Biotechnology and Bioinformatics, securing $1M in NIH funding for research.
         description: | 
           Developed bioinformatics data analysis pipelines for heart regeneration research.
 

@@ -64,21 +64,21 @@ content:
       - layout: left
         border: weak
         title: Heart Drug Target Detector
-        link: https://sproogen.github.io/modern-resume-theme
+        link: https://sproogen.github.io/modern-resume
         link_text: Project Overview
         additional_links:
           - title: GitHub
             icon: fab fa-github
             url: https://github.com/username/project-repo
         quote: >
-          Implemented a Heart Drug Target Detector to identify rare drug targets from 1.4 billion candidates, achieving a precision score of 0.91.
+          Implemented a Heart Drug Target Detector to identify drug targets from 1.4 billion candidates, achieving a precision score of 0.91.
         description: | 
           Led a team of 3 data scientists to extract data from 8 million articles, using NLP and LLM techniques for feature generation. Applied feature selection with Boruta and mRMR, trained models (Logistic Regression, Random Forest, XGBoost, SVM, CNN), and deployed the model as a Flask app on AWS.
 
       - layout: left
         border: weak
         title: AI Paper-Analysis Engine
-        link: https://sproogen.github.io/modern-resume-theme
+        link: https://sproogen.github.io/modern-resume
         link_text: Project Overview
         additional_links:
           - title: GitHub
@@ -89,10 +89,39 @@ content:
         description: | 
           Collaborated with a cross-functional team to implement RAG with Chroma vector databases and GPT-4. Developed a Flask-based backend and API, coordinated with front-end and product manager teams, and deployed the application on Azure.
 
+      - layout: left
+        border: weak
+        title: Heart Attack Detector
+        link: https://sproogen.github.io/modern-resume
+        link_text: Project Overview
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/username/heart-attack-detector
+        quote: >
+          Developed a Heart Attack Detector using health data, integrated with hospital systems, achieving a recall score of 0.81 and reducing medical costs by $80 billion annually.
+        description: |
+          To identify high-risk individuals for heart attacks, I integrated data from a local hospital database and web scraping. Derived features using historical survival analysis models and trained multiple classification models, including KNN, XGBoost, and Artificial Neural Networks. Deployed the model as part of the hospital’s digital infrastructure, benefiting 78,000 patients.
+
+      - layout: left
+        border: weak
+        title: Insight Engine for Heart Regeneration Genes
+        link: https://sproogen.github.io/modern-resume
+        link_text: Project Overview
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/username/insight-engine-heart-regen
+        quote: >
+          Developed a bioinformatics pipeline that identified 47 genes for heart regeneration, securing $1M in NIH funding and resulting in 5 published articles.
+        description: |
+          To identify gene targets promoting heart regeneration, I developed a bioinformatics data analysis pipeline. Collected and processed RNA-seq data, performed Quality Control, Read Mapping, and Quantification. Applied bioinformatics analysis to extract insights, leading to the discovery of 47 heart repair genes.
+
+
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: University of Michigan
         sub_title: Data Scientist / Assistant Professor
         caption: September 2023 - Present
@@ -102,7 +131,7 @@ content:
         description: | 
           Spearheaded the development of the Heart Drug Target Detector and AI Paper-Analysis Engine. Led a team of 7 for heart drug studies as Principal Investigator, managing a $2M budget, and securing $210K in competitive funding within one year.
 
-      - layout: right
+      - layout: left
         title: University of Michigan
         sub_title: Data Scientist / Research Investigator
         caption: December 2018 - August 2023
@@ -112,7 +141,7 @@ content:
         description: | 
           Led the Heart Drug Insight Engine project using NGS data, and deployed the Heart Attack Detector model as part of the hospital’s digital infrastructure.
 
-      - layout: right
+      - layout: left
         title: Nanjing University
         sub_title: Graduate Research and Teaching Assistant
         caption: March 2008 - March 2013
@@ -125,7 +154,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: left
         title: Nanjing University
         sub_title: Ph.D. in Biology
         caption: September 2008 - March 2013
@@ -134,14 +163,14 @@ content:
         description: | 
           Developed bioinformatics data analysis pipelines for heart regeneration research.
 
-      - layout: top-right
+      - layout: left
         title: Yangzhou University
         sub_title: M.S. in Genetics
         caption: September 2005 - June 2008
         description: | 
           Focused on genetic research and biotechnology applications.
 
-      - layout: top-right
+      - layout: left
         title: Yangzhou University
         sub_title: B.S. in Biotechnology
         caption: September 2001 - June 2005

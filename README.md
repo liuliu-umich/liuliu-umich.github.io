@@ -1,6 +1,6 @@
-# Data Scientist
+# Data Scientist and Assistant Professor at the University of Michigan
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+#### Technical Skills: Python, SQL, Linux, R, Jupyter Notebook, Pandas, NumPy, SciPy, Matplotlib, Seaborn, Spark, ETL, A/B Testing, Scikit-Learn, Random Forest, XGBoost, LightGBM, Support Vector Machine (SVM), KNN, ARIMA, SHAP, Generative AI, Large Language Model (LLM), LangChain, Retrieval-Augmented Generation (RAG), Hugging Face, Deep Learning, PyTorch, TensorFlow, CNN, RNN, Principal Component Analysis (PCA), K-means, DBSCAN, Databricks, AWS, Azure, GCP, Git, Docker, Flask, Natural Language Processing (NLP), NLTK
 
 ## Education
 - Ph.D., Biology | Nanjing University (_March 2013_)								       		

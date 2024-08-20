@@ -104,7 +104,7 @@ content:
             icon: fab fa-github
             url: https://github.com/username/heart-attack-detector
         description: |
-          Developed a Heart Attack Detector using health data, integrated with hospital systems, achieving a recall score of 0.81.
+          Developed a Heart Attack Detector using health data, achieving a recall score of 0.81.
 
           To identify high-risk individuals for heart attacks, I integrated data from a local hospital database and web scraping. Derived features using historical survival analysis models and trained multiple classification models, including KNN, XGBoost, and Artificial Neural Networks.
 

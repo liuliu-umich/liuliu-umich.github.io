@@ -15,6 +15,9 @@ email:
 website: liuliu-umich.github.io
 # website_title: Web (Website title override)
 
+# Base URL (set this if your site is not at the root of the domain)
+url: "liuliu-umich.github.io" # Leave it empty if your site is at the root of the domain. Set to "/your-subdirectory" if it is in a subdirectory.
+
 # Dark Mode (true/false/never)
 darkmode: false
 
@@ -184,6 +187,15 @@ content:
     layout: text
     content: | 
       I am passionate about using data science and AI to drive innovation in healthcare and biotechnology. My interests include exploring new machine learning techniques, mentoring young professionals, and collaborating on interdisciplinary projects. In my free time, I enjoy reading, hiking, and experimenting with new technologies.
+
+# Navigation configuration
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Blog"
+    url: "/blog"
+  # Add more navigation links if needed
+
 
 # Footer
 footer_show_references: true

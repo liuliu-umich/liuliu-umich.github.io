@@ -121,6 +121,20 @@
           {{ site.website_title | default: "Web" }}: {% include a.html href=site.website %}{{ site.website | escape }}</a>
         </p>
       {%- endif -%}
+      <p>
+        {{ site.blog_title | default: "Blog" }}: {% include a.html href=site.baseurl | append: "/blog/" %}{{ site.blog_name | default: "My Blog" }}</a>
+      </p>
     </div>
   </div>
 </div>
+
+<!-- Add the navigation menu here -->
+<nav class="header-navigation">
+  <ul>
+    {% for item in site.navigation %}
+      <li>
+        <a href="{{ item.url }}">{{ item.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

@@ -22,8 +22,6 @@
 - Achieved a precision score of 0.91 with an XGBoost model, nine-fold better than trial-and-error methods.
 - Identified 10 novel drug targets. Reduced resource costs by 90% and time requirements by 50% through model deployment as a Flask app on AWS.
 
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
-
 ### Heart Attack Detector
 - To identify high-risk individuals for heart attacks, developed a Heart Attack Detector using health data.
 - Integrated data from a local hospital database and web scraping. Derived features using historical survival analysis models. Trained multiple classification models (KNN, XGBoost, Artificial Neural Network, etc.).
@@ -34,5 +32,5 @@
 - Collected RNA-seq data. Performed Quality Control, Read Mapping and Quantification for data preprocessing. Applied bioinformatics analysis to extract insights.
 
 ## Publications
-1. Talebi S., Lary D.J., Wijeratne L. OH., and Lary, T. Modeling Autonomic Pupillary Responses from External Stimuli Using Machine Learning (2019). DOI: 10.26717/BJSTR.2019.20.003446
+
 

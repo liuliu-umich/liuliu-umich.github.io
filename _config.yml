@@ -7,12 +7,12 @@ version: 2
 
 # Personal info
 name: Liu Liu
-title: Data Scientist and Assistant Professor
+title: Data Scientist and Biomedicine Professor
 email: 
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: https://medicine.umich.edu/dept/cardiac-surgery/liu-liu-phd-ms
+website: liuliu-umich.github.io
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -20,7 +20,7 @@ darkmode: false
 
 # Social links
 # twitter_username: 
-github_username:  liuliu-umich
+github_username: liuliu-umich
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -30,8 +30,8 @@ linkedin_username: liuliu-umich
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+orcid_username: 0000-0001-8905-1039
+googlescholar_username: w77PTjUAAAAJ&hl=en
 
 # Additional icon links
 additional_links:
@@ -51,73 +51,113 @@ additional_links:
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/Headshot.jpeg
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+about_content: | 
+  I am a Data Scientist and Assistant Professor at the University of Michigan with 10 years of experience in Healthcare, Biotechnology, and the Pharmaceutical Industry. I specialize in applying Statistical Analysis and Machine Learning Modeling for Data-Driven Innovation, Fraud Detection, Risk Assessment, Insight Extraction, and Decision Making. My strengths include problem-solving, leadership, and communication in complex, cross-functional projects.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  My expertise includes:
+  - Python, SQL, Linux, R, Jupyter Notebook, Pandas, NumPy, SciPy, Matplotlib, Seaborn, Spark, ETL, A/B Testing, Scikit-Learn, Random Forest, XGBoost, LightGBM, SVM, KNN, ARIMA, SHAP, Generative AI, LLM, LangChain, RAG, Hugging Face, Deep Learning, PyTorch, TensorFlow, CNN, RNN, PCA, K-means, DBSCAN, Databricks, AWS, Azure, GCP, Git, Docker, Flask, NLP, NLTK
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        border: weak
+        title: Heart Drug Target Detector
+        link: https://sproogen.github.io/modern-resume-theme
+        link_text: Project Overview
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: GitHub
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+            url: https://github.com/username/project-repo
         quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          Implemented a Heart Drug Target Detector to identify rare drug targets from 1.4 billion candidates, achieving a precision score of 0.91.
+        description: | 
+          Led a team of 3 data scientists to extract data from 8 million articles, using NLP and LLM techniques for feature generation. Applied feature selection with Boruta and mRMR, trained models (Logistic Regression, Random Forest, XGBoost, SVM, CNN), and deployed the model as a Flask app on AWS.
+
+      - layout: left
+        border: weak
+        title: AI Paper-Analysis Engine
+        link: https://sproogen.github.io/modern-resume-theme
+        link_text: Project Overview
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/username/project-repo
+        quote: >
+          Developed an AI-powered end-to-end MVP that automates paper selection, content extraction, and generation, reducing research time by 100 hours per project.
+        description: | 
+          Collaborated with a cross-functional team to implement RAG with Chroma vector databases and GPT-4. Developed a Flask-based backend and API, coordinated with front-end and product manager teams, and deployed the application on Azure.
+
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: University of Michigan
+        sub_title: Data Scientist / Assistant Professor
+        caption: September 2023 - Present
+        link: https://www.umich.edu/
         quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+          Leading data science projects and academic research at the intersection of Healthcare and AI.
+        description: | 
+          Spearheaded the development of the Heart Drug Target Detector and AI Paper-Analysis Engine. Led a team of 7 for heart drug studies as Principal Investigator, managing a $2M budget, and securing $210K in competitive funding within one year.
+
+      - layout: right
+        title: University of Michigan
+        sub_title: Data Scientist / Research Investigator
+        caption: December 2018 - August 2023
+        link: https://www.umich.edu/
+        quote: >
+          Developed the Heart Drug Insight Engine, securing $3.6M in funding and 3 NIH awards.
+        description: | 
+          Led the Heart Drug Insight Engine project using NGS data, and deployed the Heart Attack Detector model as part of the hospital’s digital infrastructure.
+
+      - layout: right
+        title: Nanjing University
+        sub_title: Graduate Research and Teaching Assistant
+        caption: March 2008 - March 2013
+        link: https://www.nju.edu.cn/
+        quote: >
+          Applied differential gene expression analysis to identify biomarkers, securing $50K in funding.
+        description: | 
+          Developed the Pregnancy Disease Insight Engine and identified 7 genes as diagnostic biomarkers.
+
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: Nanjing University
+        sub_title: Ph.D. in Biology
+        caption: September 2008 - March 2013
         quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          Specialized in Biotechnology and Bioinformatics, securing $1M in NIH funding for research.
+        description: | 
+          Developed bioinformatics data analysis pipelines for heart regeneration research.
+
+      - layout: top-right
+        title: Yangzhou University
+        sub_title: M.S. in Genetics
+        caption: September 2005 - June 2008
+        description: | 
+          Focused on genetic research and biotechnology applications.
+
+      - layout: top-right
+        title: Yangzhou University
+        sub_title: B.S. in Biotechnology
+        caption: September 2001 - June 2005
+        description: | 
+          Comprehensive education in Biotechnology with a focus on molecular biology.
+
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+    content: | 
+      I am passionate about using data science and AI to drive innovation in healthcare and biotechnology. My interests include exploring new machine learning techniques, mentoring young professionals, and collaborating on interdisciplinary projects. In my free time, I enjoy reading, hiking, and experimenting with new technologies.
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
@@ -137,4 +177,5 @@ exclude : [
   "lib/",
   "scripts/",
   "docker-compose.yml",
-  ]
+]
+

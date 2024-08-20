@@ -99,9 +99,9 @@ content:
             icon: fab fa-github
             url: https://github.com/username/heart-attack-detector
         description: |
-          Developed a Heart Attack Detector using health data, integrated with hospital systems, achieving a recall score of 0.81 and reducing medical costs by $80 billion annually.
+          Developed a Heart Attack Detector using health data, integrated with hospital systems, achieving a recall score of 0.81.
 
-          To identify high-risk individuals for heart attacks, I integrated data from a local hospital database and web scraping. Derived features using historical survival analysis models and trained multiple classification models, including KNN, XGBoost, and Artificial Neural Networks. Deployed the model as part of the hospital’s digital infrastructure, benefiting 78,000 patients.
+          To identify high-risk individuals for heart attacks, I integrated data from a local hospital database and web scraping. Derived features using historical survival analysis models and trained multiple classification models, including KNN, XGBoost, and Artificial Neural Networks.
 
       - layout: left
         border: weak
@@ -113,7 +113,6 @@ content:
             icon: fab fa-github
             url: https://github.com/username/insight-engine-heart-regen
         description: |
-          Developed a bioinformatics pipeline that identified 47 genes for heart regeneration, securing $1M in NIH funding and resulting in 5 published articles.
           To identify gene targets promoting heart regeneration, I developed a bioinformatics data analysis pipeline. Collected and processed RNA-seq data, performed Quality Control, Read Mapping, and Quantification. Applied bioinformatics analysis to extract insights, leading to the discovery of 47 heart repair genes.
 
 

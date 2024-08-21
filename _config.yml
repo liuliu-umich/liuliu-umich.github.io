@@ -69,6 +69,7 @@ about_content: |
   - ML and DL: Pandas, Scikit-Learn, PyTorch
   - AI: LLM, LangChain, RAG, Hugging Face, NLP
   - DevOps: AWS, Azure, Databricks, Git, Flask
+  - Bioinformatics Tools
 
 content:
   - title: Projects

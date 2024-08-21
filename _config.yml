@@ -67,8 +67,8 @@ about_content: |
   My expertise includes:
   - Languages: Python, R, SQL, Linux
   - ML and DL: Pandas, Scikit-Learn, PyTorch
-  - GenAI: LLM, LangChain, RAG, Hugging Face, NLP
-  - DevOps: AWS, Azure, Databricks, Git, Flask
+  - GenAI: LLM, LangChain, RAG, Hugging Face
+  - Cloud & DevOps: AWS, Databricks, Git, Flask
   - Bioinformatics Tools
 
 content:

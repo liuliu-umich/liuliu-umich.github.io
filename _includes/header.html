@@ -126,9 +126,11 @@
           {{ site.website_title | default: "Web" }}: {% include a.html href=site.website %}{{ site.website | escape }}</a>
         </p>
       {%- endif -%}
+      {%- if blog_name -%}
       <p>
         {{ site.blog_title | default: "" }}<a href="{{ site.url | append: '/blog/' }}">{{ site.blog_name | default: "My Blog" }}</a>
       </p>
+      {%- endif -%}
       <p style="text-decoration: underline;">
         {{ site.projects_title | default: "" }}<a href="{{ site.url | append: '/projects/' }}" style="text-decoration: underline;">{{ site.projects_name | default: "Check My Projects" }}</a>
       </p>

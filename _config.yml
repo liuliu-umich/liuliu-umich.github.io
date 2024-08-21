@@ -65,10 +65,10 @@ about_content: |
   I am a Data Scientist and Assistant Professor at the University of Michigan with 10 years of experience in Healthcare, Biotechnology, and the Pharmaceutical Industry. I specialize in applying Statistical Analysis and Machine Learning Modeling for Data-Driven Innovation, Fraud Detection, Risk Assessment, Insight Extraction, and Decision Making. My strengths include problem-solving, leadership, and communication in complex, cross-functional projects.
 
   My expertise includes:
-  - Programming Languages: Python, R, SQL, Linux
-  - Data Science and Machine Learning: Pandas, NumPy, SciPy, Scikit-Learn, A/B Testing, PyTorch
-  - Generative AI and Language Models: Generative AI, LLM, LangChain, RAG, Hugging Face, NLP
-  - DevOps and Cloud Platforms: AWS, Azure, GCP, Databricks, Git, Docker, Spark, Flask
+  - Languages: Python, R, SQL, Linux
+  - ML and DL: Pandas, Scikit-Learn, PyTorch, A/B Testing
+  - Generative AI: LLM, LangChain, RAG, Hugging Face, NLP
+  - DevOps: AWS, Azure, GCP, Databricks, Git, Spark, Flask
 
 content:
   - title: Projects

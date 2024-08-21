@@ -12,8 +12,13 @@ email:
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: liuliu-umich.github.io
+# website: liuliu-umich.github.io
 # website_title: Web (Website title override)
+# blog_name: Blog
+# blog_title: Web (Website title override)
+# projects_title: My projects
+# projects_name: Web (Website title override)
+
 
 # Base URL (set this if your site is not at the root of the domain)
 baseurl: "" # Leave it empty if your site is at the root of the domain

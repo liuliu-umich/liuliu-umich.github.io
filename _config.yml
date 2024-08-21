@@ -66,9 +66,9 @@ about_content: |
 
   My expertise includes:
   - Languages: Python, R, SQL, Linux
-  - ML and DL: Pandas, Scikit-Learn, PyTorch, A/B Testing
+  - ML and DL: Pandas, Scikit-Learn, PyTorch
   - AI: LLM, LangChain, RAG, Hugging Face, NLP
-  - DevOps: AWS, Azure, Databricks, Git, Spark, Flask
+  - DevOps: AWS, Azure, Databricks, Git, Flask
 
 content:
   - title: Projects

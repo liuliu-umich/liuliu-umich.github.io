@@ -1,0 +1,15 @@
+---
+layout: projectsimple
+title: "Projects"
+permalink: /projects/
+---
+
+<h1>{{ page.title }}</h1>
+<ul>
+  {% for project in site.projects %}
+    <li>
+      <a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+      <p>{{ project.description | strip_html | truncate: 150 }}</p>
+    </li>
+  {% endfor %}
+</ul>

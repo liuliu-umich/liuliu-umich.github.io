@@ -131,9 +131,9 @@
         {{ site.blog_title | default: "" }}<a href="{{ site.url | append: '/blog/' }}">{{ site.blog_name | default: "My Blog" }}</a>
       </p>
       {%- endif -%}
-      <p style="text-decoration: underline; font-size: 1.5em;">
+      <p style="font-size: 1.5em;">
         {{ site.projects_title | default: "" }}
-        <a href="{{ site.url | append: '/projects/' }}" style="text-decoration: underline; font-size: 1.5em; background-color: #f0f0f0; padding: 0 0.2em;">
+        <a href="{{ site.url | append: '/projects/' }}" style="font-size: 1.5em; border: 2px solid currentColor; padding: 0 0.2em;">
             {{ site.projects_name | default: "Check My Projects" }}
         </a>
       </p>

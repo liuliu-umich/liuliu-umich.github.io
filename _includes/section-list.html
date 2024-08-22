@@ -11,10 +11,10 @@
         </a>
       {%- endif -%}
 
-      <p class="no-print aditional-links">
+      <p class="no-print additional-links">
         {% for link in item.additional_links %}
           {% include a.html href=link.url class="" %}
-            <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
+            <i class="{{ link.icon }}" style="{{ link.icon_style | default: '' }}" title="{{ link.title | escape }}"></i> {{ link.title }}
           </a>
         {% endfor %}
       </p>

@@ -62,7 +62,8 @@ googlescholar_username: w77PTjUAAAAJ&hl=en
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/Headshot.jpeg
 about_content: | 
-  I am a Data Scientist and Assistant Professor at the University of Michigan with 10 years of experience in Healthcare, Biotechnology, and the Pharmaceutical Industry. I specialize in applying Statistical Analysis and Machine Learning Modeling for Data-Driven Innovation, Fraud Detection, Risk Assessment, Insight Extraction, and Decision Making. My strengths include problem-solving, leadership, and communication in complex, cross-functional projects.
+  I am a Data Scientist and Assistant Professor at the University of Michigan in Healthcare and Biotechnology, specialized in Machine Learning Modeling for Data-Driven Innovation, Insight Extraction, and Decision Making. My strengths include problem-solving, leadership, and communication in complex, cross-functional projects.
+
 
   My expertise includes:
   - Languages: Python, R, SQL, Linux
@@ -77,13 +78,14 @@ content:
     content:
       - layout: left
         border: weak
-        title: Heart Drug Target Detector
+        title: Drug Target Detector
         link: https://sproogen.github.io/modern-resume
-        link_text: Project Overview
+        link_text: Project Details
         additional_links:
           - title: GitHub
             icon: fab fa-github
             url: https://github.com/username/project-repo
+            icon_style: "font-size: 0.8em;"
         description: |
           Implemented a Heart Drug Target Detector to identify drug targets from 1.4 billion candidates, achieving a precision score of 0.91.
 
@@ -91,13 +93,14 @@ content:
 
       - layout: left
         border: weak
-        title: AI Paper-Analysis Engine
+        title: AI Paper Analyzer
         link: https://sproogen.github.io/modern-resume
-        link_text: Project Overview
+        link_text: Project Details
         additional_links:
           - title: GitHub
             icon: fab fa-github
             url: https://github.com/username/project-repo
+            icon_style: "font-size: 0.8em;"
         description: |
           Developed an AI-powered end-to-end MVP that automates paper selection, content extraction, and generation, reducing research time by 100 hours per project.
  
@@ -107,11 +110,12 @@ content:
         border: weak
         title: Heart Attack Detector
         link: https://sproogen.github.io/modern-resume
-        link_text: Project Overview
+        link_text: Project Details
         additional_links:
           - title: GitHub
             icon: fab fa-github
             url: https://github.com/username/heart-attack-detector
+            icon_style: "font-size: 0.8em;"
         description: |
           Developed a Heart Attack Detector using health data, achieving a recall score of 0.81.
 
@@ -119,13 +123,14 @@ content:
 
       - layout: left
         border: weak
-        title: Insight Engine for Heart Regeneration Genes
+        title: Genes Insight Engine
         link: https://sproogen.github.io/modern-resume
-        link_text: Project Overview
+        link_text: Project Details
         additional_links:
           - title: GitHub
             icon: fab fa-github
             url: https://github.com/username/insight-engine-heart-regen
+            icon_style: "font-size: 0.8em;"
         description: |
           To identify gene targets promoting heart regeneration, I developed a bioinformatics data analysis pipeline. Collected and processed RNA-seq data, performed Quality Control, Read Mapping, and Quantification. Applied bioinformatics analysis to extract insights, leading to the discovery of 47 heart repair genes.
 

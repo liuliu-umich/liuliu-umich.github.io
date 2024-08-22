@@ -163,9 +163,12 @@ content:
         sub_title: Postdoctoral Researcher
         caption: April 2013 - November 2018
         description: |
+
+          &nbsp;
+
           Developed the Insight Engine for Heart Regeneration Genes, identifying key gene targets for heart repair.
 
-          Developed a bioinformatics data analysis pipeline to identify gene targets promoting heart regeneration. Collected RNA-seq data, performed quality control, read mapping, and quantification for data preprocessing, and applied bioinformatics analysis. Identified 47 genes as heart repair targets, securing $1M in NIH funding and resulting in 5 published articles.
+          Developed a bioinformatics data analysis pipeline to identify gene targets promoting heart regeneration. Collected RNA-seq data, performed quality control, read mapping, and quantification for data preprocessing, and applied bioinformatics analysis. Identified 47 genes as heart repair targets.
 
       - layout: left
         title: Nanjing University

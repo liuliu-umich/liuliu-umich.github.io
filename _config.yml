@@ -81,7 +81,7 @@ content:
         border: weak
         title: Drug Target Detector
         link: https://sproogen.github.io/modern-resume
-        link_text: Project Details
+        link_text: Check My Paper
         additional_links:
           - title: GitHub
             icon: fab fa-github
@@ -96,7 +96,7 @@ content:
         border: weak
         title: AI Paper Analyzer
         link: https://sproogen.github.io/modern-resume
-        link_text: Project Details
+        link_text: Check My Web
         additional_links:
           - title: GitHub
             icon: fab fa-github
@@ -125,8 +125,8 @@ content:
       - layout: left
         border: weak
         title: Genes Insight Engine
-        link: https://sproogen.github.io/modern-resume
-        link_text: Project Details
+        link: 
+        link_text: 
         additional_links:
           - title: GitHub
             icon: fab fa-github

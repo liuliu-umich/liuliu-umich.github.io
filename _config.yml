@@ -85,7 +85,7 @@ content:
         additional_links:
           - title: GitHub
             icon: fab fa-github
-            url: https://github.com/username/project-repo
+            url: https://github.com/liuliu-umich/1433predictor
             icon_style: "font-size: 0.8em;"
         description: |
           Implemented a Heart Drug Target Detector to identify drug targets from 1.4 billion candidates, achieving a precision score of 0.91.
@@ -100,7 +100,7 @@ content:
         additional_links:
           - title: GitHub
             icon: fab fa-github
-            url: https://github.com/username/project-repo
+            url: https://github.com/liuliu-umich/AI-Paper-Analyzer/tree/main
             icon_style: "font-size: 0.8em;"
         description: |
           Developed an AI-powered end-to-end MVP that automates paper selection, content extraction, and generation, reducing research time by 100 hours per project.
@@ -115,7 +115,7 @@ content:
         additional_links:
           - title: GitHub
             icon: fab fa-github
-            url: https://github.com/username/heart-attack-detector
+            url: https://github.com/liuliu-umich/Heart-Attack-Detector
             icon_style: "font-size: 0.8em;"
         description: |
           Developed a Heart Attack Detector using health data, achieving a recall score of 0.81.
@@ -130,7 +130,7 @@ content:
         additional_links:
           - title: GitHub
             icon: fab fa-github
-            url: https://github.com/username/insight-engine-heart-regen
+            url: https://github.com/liuliu-umich/NGS-pipeline
             icon_style: "font-size: 0.8em;"
         description: |
           To identify gene targets promoting heart regeneration, I developed a bioinformatics data analysis pipeline. Collected and processed RNA-seq data, performed Quality Control, Read Mapping, and Quantification. Applied bioinformatics analysis to extract insights, leading to the discovery of 47 heart repair genes.
